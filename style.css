@@ -69,6 +69,7 @@ span {
 
 .banner-container {
   display: flex;
+  width: 100%;
   max-width: 1440px;
   min-height: 80px;
   margin: 50px auto 0;
@@ -79,6 +80,8 @@ span {
 }
 .banner-text {
   margin-top: 148px;
+  width: 100%;
+  height: auto;
 }
 .banner-title {
   color: var(--color-2);
@@ -98,12 +101,17 @@ span {
 .banner-imgs {
   width: 50%;
 }
+.banner-imgs img{
+    width: 100%;
+    height: auto;
+}
 .paragraphs{
  margin-bottom: 20px;
  font-size: 1.3em;
  font-weight: 500;
  color: var(--text-color);
-
+ width: 100%;
+ height: auto;
 }
 .buttons{
     display: flex;
