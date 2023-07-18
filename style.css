@@ -33,6 +33,7 @@
 }
 span {
   color: var(--color-1);
+  font-size: 2.8rem;
 }
 
 .menus {
@@ -106,7 +107,7 @@ span {
     height: auto;
 }
 .paragraphs{
- margin-bottom: 20px;
+ margin-bottom: 26px;
  font-size: 1.3em;
  font-weight: 500;
  color: var(--text-color);
@@ -128,6 +129,7 @@ span {
     color: white;
     font-size: 1.2rem;
     font-weight: 600;
+    margin-bottom: 15px;
 }
 .btn-2{
     padding: 21px 40px;
@@ -138,3 +140,95 @@ span {
     font-size: 1.2rem;
     font-weight: 600;
 }
+
+    /* We are gamer Section */
+.gamer-section{
+    background-color:rgb(255, 249, 252);
+    min-height: 500px;
+    padding: 20px 0;
+}
+.game-container{
+    max-width: 1440px;
+    margin: 0 auto;
+    min-height: 200px;
+    display: flex;
+    align-items: center;
+}
+.game-img{
+    width: 70%;
+}
+.game-img img{
+    width: 70%;
+    height: 100%;
+    display: block;
+    margin: 0 auto;
+}
+.game-text{
+    width: 30%;
+    text-align: right;
+}
+.game-text-title{
+    font-size: 2.8rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.paragraphs-1{
+    color: var(--text-color);
+    font-size: 1rem;
+    font-weight: 400;
+    padding: 10px 0;
+}
+.game-text span-1{
+    color: #534C64;
+    font-size: 2rem;
+    font-weight: 700;
+
+}
+
+/* Funny video section */
+.video-grid{
+    display: grid;
+    max-width: 1440px;
+    margin: 50px auto 0;
+    min-height: 400px;
+    grid-template-columns: repeat(4, 1fr);
+}
+.video-text{
+    text-align: center;
+}
+.videos{
+    position: relative;
+}
+.videos:hover .videos-overlay{
+    opacity: 1;
+    visibility: visible;
+    border-radius: 10px;
+}
+.videos-overlay{
+    height: 100%;
+    width: 24%;
+    background: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    visibility: hidden;
+    transition: .4s;
+}
+.videos-overlay a{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background: var(--color_2);
+    text-align: center;
+    line-height: 40px;
+    color: white;
+}
+
